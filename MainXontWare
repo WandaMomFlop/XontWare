@@ -6,7 +6,7 @@ local Whitelisted = {
 	["ChaoticDvolliez"] = true,
 	["ohrizz"] = true,
 	["justdancetyren"] = true,
-	["Photons_alt1"] = true
+	["Photons_Alt1"] = true
 
 }
 
