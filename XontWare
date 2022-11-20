@@ -6,7 +6,7 @@ local function notify(name,text,length)
     end 
     name = name or "Notification"
     text = text or "Hello!"
-    length = length or 5
+    length = length or 15
     
     local tweenservice = game:GetService("TweenService")
 
@@ -102,16 +102,20 @@ local function notify(name,text,length)
 end
 
 spawn(function()
-    if game.PlaceId == 0 then
+    if game.PlaceId == 0 then --The Vampire Origins
  print ("Random")
+ notify("Notification","Loaded: Game Name")
     elseif
-        game.PlaceId == 0 then
-            
+        game.PlaceId == 0 then --Wizard Life
+            print ("Random")
+            notify("Notification","Loaded: Game Name")
         elseif
-            game.PlaceId == 5100950559 then
-                print ("help")
+            game.PlaceId == 51009505259 then --Just Grass
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+                notify("Notification","Loaded: Just Grass")
                 else
-        notify("Alert","This game is doesn't supported by Xont-Ware")
+                    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+        notify("Alert","This game is not supported by Xont-Ware, But we have executed Infinite Yeild for you!")
     end
     
 end)
