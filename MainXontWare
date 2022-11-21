@@ -1,6 +1,9 @@
 local Blacklisted = {
 	
-		["NOOB"] = true,
+	["NOOB"] = true,
+	["auvlors"] = true
+	
+		
 }
 local Whitelisted = {
 	["4U_Matt"] = true,
@@ -8,7 +11,7 @@ local Whitelisted = {
 	["ohrizz"] = true,
 	["justdancetyren"] = true,
 	["Photons_Alt1"] = true,
-	["auvlors"] = true
+	["auvlors"] = false
 
 }
 
