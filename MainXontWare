@@ -3,6 +3,7 @@ local Blacklisted = {
 		["NOOB"] = true,
 }
 local Whitelisted = {
+	["4U_Matt"] = true,
 	["ChaoticDvolliez"] = true,
 	["ohrizz"] = true,
 	["justdancetyren"] = true,
