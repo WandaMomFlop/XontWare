@@ -1,6 +1,4 @@
 local Blacklisted = {
-	
-	["jj_plyzz"] = true,
 	["auvlors"] = true
 	
 		
@@ -12,6 +10,7 @@ local Whitelisted = {
 	["justdancetyren"] = true,
 	["Photons_Alt1"] = true,
 	["auvlors"] = false
+	["jj_plyzz"] = true,
 
 }
 
