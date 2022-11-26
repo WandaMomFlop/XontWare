@@ -7,6 +7,7 @@ local Blacklisted = {
 }
 local Whitelisted = {
     	["ussygorl"] = true,
+	["Seuosaa"] = true,
     	["peachescouchiebug"] = true,
 	["4U_Matt"] = true,
 	["wandamomflop"] = true,
